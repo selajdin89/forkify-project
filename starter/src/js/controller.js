@@ -119,6 +119,7 @@ const init = function () {
   searchViews.adHandlerSearch(controlSearchResults);
   paginationView.adHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  console.log('Yes it works');
 };
 init();
 
